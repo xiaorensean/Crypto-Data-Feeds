@@ -1,6 +1,5 @@
 # Market-Data
-- Server: 
-   - HOST_1: 35-182-242-71.ca-central-1.compute.amazonaws.com
+
 - This is a library with scripts to pull futures and perpetual swaps data from different exchanges, and then writes into an InfluxDB database. Currently, the main features of interest being collected are price, volume, open interest, and funding rate. However, all other metadata that can be pulled from the exchanges are also being stored; this data differs from exchange to exchange.
 
 ### Dependencies
