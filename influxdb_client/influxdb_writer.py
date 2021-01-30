@@ -13,7 +13,7 @@ HOST = "ec2-15-222-236-45.ca-central-1.compute.amazonaws.com"
 class Writer:
 
 	def __init__(self):
-		self.client = InfluxDBClient(host=HOST, port='8086', username='xren', password='5X%UZ^Xa.bH@9Ze6')
+		self.client = InfluxDBClient(host=HOST, port='8086', username='', password='')
 		self.client.switch_database('md_rates')
 
 	'''
